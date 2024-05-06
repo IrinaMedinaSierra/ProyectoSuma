@@ -12,15 +12,52 @@
 </head>
 
 <body>
-    <div class="contenedor col-12">
+    <header>
+        <div class="header color-naranja col-12 caja-flex">
+
+      <span class="material-symbols-rounded color-amarillo">
+                  home
+                </span>
+
+                <span class="material-symbols-rounded color-amarillo">
+                    menu
+                </span>
+
+
+        </div>
+
+    </header>
+
+    <div class="contenedor col-12 texto-centrado margen-top-100">
         <form action="">
-            <input type="number" id="sumando1" name="sumando1" readonly>
-            <span class="material-symbols-rounded">
+           <p>
+            <input type="number" id="sumando1" name="sumando1" readonly min="0" max="99">
+           </p>
+        <p>
+            <span class="material-symbols-rounded color-azul">
                 add_circle
             </span>
-            <input type="number" id="sumando2" name="sumando2" readonly>
-            <input type="number" id="resultado" name="resultado" >
+           </p>
+            <p>
+               <input type="number" id="sumando2" name="sumando2" readonly min="0" max="99">
+            </p>
+            <p>
+                <span class="material-symbols-rounded">
+equal
+</span>
+            </p>
+            <p>
+            <input type="number" id="resultado" name="resultado" min="0" max="200" >
+            </p>
         </form>
+    <p>
+        <span class="material-symbols-rounded">
+thumb_up
+</span>
+        <span class="material-symbols-rounded">
+thumb_down
+</span>
+    </p>
 
     </div>
 
