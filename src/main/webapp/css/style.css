@@ -3,6 +3,7 @@ Hoja de estilo del proyecto
  */
 body{
     background-color: gold;
+    height: 100vh;
 }
 .texto-centrado{
     text-align: center;
@@ -34,3 +35,23 @@ input{
     justify-content: space-between;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+}
+
+.unbounded{
+                font-family: "Unbounded", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+.correcta{
+    color: green;
+}
+.incorrecta{
+    color:red;
+}
