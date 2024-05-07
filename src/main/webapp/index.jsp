@@ -35,7 +35,7 @@
            </p>
         <p>
             <span class="material-symbols-rounded color-azul">
-                add_circle
+                add
             </span>
            </p>
             <p>
