@@ -19,16 +19,29 @@
 
  <section>
      <div class="col-img-12 texto-centrado margen-top-100">
-         <img src="images/sumar.png" alt="Sumar" class="col-img-4" >
-         <img src="images/restar.png" alt="Restar" class="col-img-4">
+         <label for="sumar" class="radio-label">
+             <input type="radio" name="operacion" value="sumar" id="sumar" class="radio">
+             <img src="images/sumar.png" alt="Sumar" class="col-img-4">
+         </label>
+
+         <label for="restar" class="radio-label">
+             <input type="radio" name="operacion" value="restar" id="restar" class="radio">
+             <img src="images/restar.png" alt="Restar" class="col-img-4">
+         </label>
      </div>
      <div class="col-img-12 texto-centrado">
-         <img src="images/multiplicar.png" alt="Multiplicar" class="col-img-4">
-         <img src="images/dividir.png" alt="dividir" class="col-img-4">
+         <label for="multiplicar" class="radio-label">
+             <input type="radio" name="operacion" value="multiplicar" id="multiplicar" class="radio">
+             <img src="images/multiplicar.png" alt="Multiplicar" class="col-img-4">
+         </label>
+         <label for="dividir" class="radio-label">
+             <input type="radio" name="operacion" value="dividir" id="dividir" class="radio">
+             <img src="images/dividir.png" alt="dividir" class="col-img-4">
+         </label>
      </div>
  </section>
     <jsp:include page="footer.jsp"></jsp:include>
-    <script src="script/js.js"></script>
+
 </body>
 </html>
 

@@ -8,8 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <footer class="color-naranja col-12">
     <button class="color-naranja boton" id="salir">
-    <span class="material-symbols-rounded color-amarillo">
-        exit_to_app
-    </span>
+        <span class="material-symbols-rounded color-amarillo">
+             exit_to_app
+         </span>
     </button>
 </footer>
+<script src="script/js.js"></script>

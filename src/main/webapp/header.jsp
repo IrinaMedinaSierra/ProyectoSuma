@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <header>
     <div class="header color-naranja col-12 caja-flex">
-
+        <a href="index.jsp">
       <span class="material-symbols-rounded color-amarillo">
                   home
                 </span>
-
+        </a>
         <a href="autor.jsp">
              <span class="material-symbols-rounded color-amarillo">
                     menu

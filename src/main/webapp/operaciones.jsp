@@ -21,7 +21,7 @@
         <h1  class="unbounded">Habilidad Mental</h1>
         <form action="">
            <p>
-            <input type="number" id="sumando1" name="sumando1" readonly min="0" max="99">
+            <input type="number" id="operando1" name="operando1" readonly min="0" max="99">
            </p>
         <p>
             <span class="material-symbols-rounded">
@@ -29,7 +29,7 @@
             </span>
            </p>
             <p>
-               <input type="number" id="sumando2" name="sumando2" readonly min="0" max="99">
+               <input type="number" id="operando2" name="operando2" readonly min="0" max="99">
             </p>
             <p>
                 <span class="material-symbols-rounded">
@@ -55,9 +55,7 @@ equal
    </p>
 
     </div>
-
-    <jsp:include page="footer.jsp"></jsp:include>
-    <script src="script/js.js"></script>
+<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
 
