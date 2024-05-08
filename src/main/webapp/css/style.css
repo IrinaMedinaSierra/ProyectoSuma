@@ -2,7 +2,7 @@
 Hoja de estilo del proyecto
  */
 body{
-    background-color: gold;
+    background-color: #4684e7;
     height: 100vh;
 }
 .texto-centrado{
@@ -16,17 +16,17 @@ input{
     padding: 15px;
 }
 .material-symbols-rounded {
-    font-size: 50px;
-    color: orangered;
+    font-size: 45px;
+    color: #631b80;
 }
 .header{
     height: 50px;
 }
 .color-naranja{
-    background-color: orangered;
+    background-color: #48128a;
 }
 .color-amarillo{
-    color:gold;
+    color: #4684e7;
 }
 
 .caja-flex{
@@ -55,3 +55,15 @@ footer{
 .incorrecta{
     color:red;
 }
+.correcta,.incorrecta{
+    font-size: 50px;
+    margin: -100px;
+}
+.boton{
+    border:none;
+
+}
+.boton:hover{
+    cursor: pointer;
+}
+
