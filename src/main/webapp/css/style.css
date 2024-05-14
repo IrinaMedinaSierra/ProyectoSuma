@@ -66,16 +66,10 @@ footer{
 .boton:hover{
     cursor: pointer;
 }
-.radio-label:before {
-    content: "";
-    display: inline-block;
-    background-color: transparent;
-    opacity: 0;
-}
 
-/* Estilo cuando el botón de radio está marcado */
-input[type="radio"]:checked + .radio-label {
+/* Estilo cuando para ocultar el boton radio */
+input[type="radio"] {
     /* Estilo que deseas aplicar cuando el radio está marcado */
-    border: 2px solid blue; /* Por ejemplo, un borde azul */
+   display: none;
 }
 

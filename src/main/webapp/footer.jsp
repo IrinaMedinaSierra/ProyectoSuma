@@ -13,4 +13,4 @@
          </span>
     </button>
 </footer>
-<script src="script/js.js"></script>
+<script src="script/footer.js"></script>
